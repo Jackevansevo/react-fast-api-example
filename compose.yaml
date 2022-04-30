@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build: frontend
+    depends_on:
+      - backend
+    ports:
+      - 1234:1234
+  backend:
+    build: backend
+    ports:
+      - 8000:8000

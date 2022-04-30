@@ -1,0 +1,8 @@
+node_modules
+.DS_Store
+backend/.direnv
+frontend/.parcel-cache
+frontend/dist
+__pycache__/
+.vscode
+*.pyc
